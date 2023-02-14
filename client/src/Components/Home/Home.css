@@ -1,0 +1,45 @@
+
+
+.Main{
+    width:calc(100% - 200px);
+    margin-left: 200px;
+    --primary-color: #6c757d;
+    --secondary-color: #121416;
+    --tertiary-color: #40474F;
+    --quaternary-color: #c7c7cc;
+    --quinary-color: #343a40;
+    padding-bottom: 100px;
+    background-color: #343a40;
+}
+
+.Card {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0, 200px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    border: none;
+    padding-bottom: 40px;
+  }
+  .selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .selection select {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #40474F;
+    border-radius: 10px;
+    border-style: none;
+    color: #f0ffff;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,14 @@
+export const GET_GAMES = 'GET_GAMES';
+export const GET_GENRES = 'GET_GENRES';
+export const GET_DETAIL = 'GET_DETAIL';
+export const GET_GAMEBYNAME = "GET_GAMEBYNAME";
+export const ORDER_BY_NAME = "ORDER_BY_NAME";
+export const ORDER_BY_RATING = "ORDER_BY_RATING";
+export const ORDER_BY_GENRES = "ORDER_BY_GENRES";
+export const GET_PLATFORMS = 'GET_PLATFORMS';
+export const FILTER_BY_PLATFORM = 'FILTER_BY_PLATFORM';
+export const POST_GAME = 'POST_GAME';
+export const SET_PAGE = "SET_PAGE"
+// export const GET_GAMES = 'GET_GAMES'
+// export const GET_GAMES = 'GET_GAMES'
+// export const GET_GAMES = 'GET_GAMES'

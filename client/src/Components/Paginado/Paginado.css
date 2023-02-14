@@ -1,0 +1,30 @@
+.Pag {
+    display: flex;
+    justify-content: center;
+  }
+  
+ .Pag ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .Pag li {
+    margin: 0 10px;
+  }
+  
+ .Pag p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #40474F;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .Pag li.selected p {
+    background-color: #6c757d;
+    color: azure;
+  }
+  

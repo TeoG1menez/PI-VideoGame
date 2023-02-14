@@ -1,0 +1,75 @@
+.AllForm{
+  background-color: #40474F;
+}
+.Fromas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border:none;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: azure;
+    background-color: #343a40;
+  }
+  
+  .Fromas input[type="text"],
+  .Fromas textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #6c757d;
+    color: azure
+  }
+  
+  .Fromas input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #6c757d;
+    color: azure
+  }
+  
+  .Fromas input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #6c757d;
+    color: azure
+  }
+  
+  .Fromas p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: #343a40;
+    color: azure
+  }
+  
+  .Fromas label {
+    
+    background-color:#343a40;
+    padding-left: 10px;
+  }
+  .Formas input[type='checkbox']{
+    background-color: #343a40;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .Fromas button[type="submit"] {
+
+    padding: 10px 20px;
+    background-color: #40474F;
+    height: 60px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+
+  }
+  

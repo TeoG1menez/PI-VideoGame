@@ -1,0 +1,38 @@
+.Detail{
+    background-color: #343a40;
+}
+.Detail2{
+    width:calc(100% - 200px);
+    padding-left: 200px;
+    background-color: #343a40;
+    height: 100vh;
+}
+
+.DetailCard{
+    margin: 100px;
+     display: flex; 
+     flex-direction: column;
+     align-items: flex-start;
+    border-radius: 25px;
+    background-color: #6c757d;
+    color: azure
+}
+
+.DetailCard img{
+    
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 250px;
+}
+
+.DetailCard h1{
+    margin: 25px;
+    
+
+}
+
+.DetailCard p{
+    margin: 15px
+}
