@@ -1,0 +1,74 @@
+/* The side navigation menu */
+.sidebar {
+    transition: 0.4s;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar div {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar div.active {
+    background-color: #277779;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar div:hover:not(.active) {
+    background-color: rgb(203, 220, 228);
+    color: rgb(0, 0, 0);
+  }
+
+  .nolink{
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 1250px) {
+    .sidebar {
+      width: 100%;
+      display: flex;
+      height: auto;
+      position: relative;
+    }
+    .sidebar div {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height:auto;
+      display: block;
+    }
+    
+    .sidebar div {
+      text-align: center;
+      float: none;
+    }
+
+    .dropdown {
+      transition: 0.4s;
+      height: 200px;
+      overflow: hidden;
+    }
+    .noDropdown {
+      transition: 0.4s;
+      height: auto;
+      overflow: hidden;
+    }
+  }
